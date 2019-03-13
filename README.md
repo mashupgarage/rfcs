@@ -1,5 +1,5 @@
 <p align='center'>
-<br><img src='https://user-images.githubusercontent.com/74385/47948807-e0779800-df72-11e8-81e8-68ec5c61de46.png' width='160'><br>
+<br><img src='https://raw.githubusercontent.com/mashupgarage/logo/v2017/dist/png/MG_2A%20-%20Monogram%2C%20color.png' width='160'><br>
 </p>
 
 <h1 align='center'>
@@ -11,11 +11,11 @@ RFC proposals for changes in Mashup Garage
 </p>
 
 <p align='center'>
-
-:zap:
-[Write an RFC](https://github.com/mashupgarage/rfcs/issues/new)
+⚡
+<a href='https://github.com/mashupgarage/rfcs/issues/new'>Write an RFC</a>
 &middot;
-[Review RFC's](https://github.com/mashupgarage/rfcs/issues)
-:zap:
-
+<a href='https://github.com/mashupgarage/rfcs/issues'>Review open RFC's</a>
+&middot;
+<a href='https://github.com/mashupgarage/rfcs/tree/master/rfcs'>See accepted RFC's</a>
+⚡
 </p>
