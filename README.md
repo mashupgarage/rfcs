@@ -13,9 +13,9 @@ RFC proposals for changes in Mashup Garage
 <p align='center'>
 ⚡
 <a href='https://github.com/mashupgarage/rfcs/issues/new'>Write an RFC</a>
-&middot;
-<a href='https://github.com/mashupgarage/rfcs/issues'>Review open RFC's</a>
-&middot;
+&nbsp; &middot; &nbsp;
+<a href='https://github.com/mashupgarage/rfcs/issues?utf8=%E2%9C%93&q=is%3Aopen'>Review open RFC's</a>
+&nbsp; &middot; &nbsp;
 <a href='https://github.com/mashupgarage/rfcs/tree/master/rfcs'>See accepted RFC's</a>
 ⚡
 </p>
