@@ -109,6 +109,14 @@ In contrast, this example below is more easily glanceable and takes less effort 
 }
 ```
 
+## Why not use device names like `mobile`, and so on?
+
+(I'll explain later)
+
+## Why not use generic names like `small`, and so on?
+
+(I'll explain later)
+
 ## Prior art
 
 - Bootstrap 4.0 introduces breakpoints that are off by `.02`. We choose to use `.1` though, simply because it's easier to remember. https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints
