@@ -73,6 +73,41 @@ For new projects:
 
 - Adapt the above guidelines as needed.
 
+## Why avoid max-width?
+
+Mixing min-width and max-width together can make CSS more difficult to read. Take this example below: what _padding_ will be applied on phones in portrait mode? Knowing the answer to this requires the reader to read through all the media queries to understand what's going on.
+
+```css
+/* Avoid: don't mix min-width with max-width. */
+.author-card {
+  padding: 16px;
+
+  @media (min-width: 480.1px) {
+    padding: 32px;
+  }
+
+  @media (max-width: 768.1px) {
+    padding: 8px;
+  }
+}
+```
+
+In contrast, this example below is more easily glanceable and takes less effort for a reader to understand.
+
+```css
+.author-card {
+  padding: 8px;
+
+  @media (min-width: 480.1px) {
+    padding: 16px;
+  }
+
+  @media (mint-width: 768.1px) {
+    padding: 32px;
+  }
+}
+```
+
 ## Prior art
 
 - Bootstrap 4.0 introduces breakpoints that are off by `.02`. We choose to use `.1` though, simply because it's easier to remember. https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints
