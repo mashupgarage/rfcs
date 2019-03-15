@@ -1,3 +1,10 @@
+---
+title: Mobile-first media queries
+submitted_by: Rico Sta. Cruz (@rstacruz)
+submitted_on: 2019-03-15
+approved_on: null
+---
+
 ## Summary
 
 Let's say a few rules for media queries to ease confusion, make things readable, and push forward a 'mobile-first' approach to writing CSS.
