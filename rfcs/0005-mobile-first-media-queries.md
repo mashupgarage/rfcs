@@ -95,6 +95,7 @@ Mixing min-width and max-width together can make CSS more difficult to read. Tak
 In contrast, this example below is more easily glanceable and takes less effort for a reader to understand.
 
 ```css
+/* Good: only using min-width leads to more readable CSS */
 .author-card {
   padding: 8px;
 
@@ -102,7 +103,7 @@ In contrast, this example below is more easily glanceable and takes less effort 
     padding: 16px;
   }
 
-  @media (mint-width: 768.1px) {
+  @media (min-width: 768.1px) {
     padding: 32px;
   }
 }
