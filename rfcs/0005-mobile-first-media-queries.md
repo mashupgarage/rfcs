@@ -111,11 +111,11 @@ In contrast, this example below is more easily glanceable and takes less effort 
 
 ## Why not use device names like `mobile`, and so on?
 
-(I'll explain later)
+These names are ambiguous. When you say `mobile`, does that include tablets? Does it include mobiles in landscape mode? In contrast, a name like `viewport-7` allows designers and developers to be more intimately familiar with the values that we're working with, such as `768px`.
 
 ## Why not use generic names like `small`, and so on?
 
-(I'll explain later)
+These names are also ambiguous. Does `medium` correspond do a mobile, or tablet? Is `x-small` the size of an iPhone 4? What about an Apple Watch?
 
 ## Prior art
 
